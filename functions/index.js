@@ -9,6 +9,7 @@ export async function onRequest(context) {
         <meta property="og:description" content="A web proxy solution built on Cloudflare Network">
         <meta property="og:url" content="https://cf-web-proxy.pages.dev">
         <meta property="og:type" content="website">
+        <meta name="cdn-site-verification" content="IpcaHpiX5FbhHN"/>
         <style>
           @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
           body { 
@@ -178,22 +179,10 @@ export async function onRequest(context) {
           <h2>About</h2>
           <p>This website helps you encode and secure your download links</p>
         </div>
-        <div class="github-star">
-          <a href="https://github.com/MinitorMHS/CF_web_proxy">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub Icon" class="icon">
-          </a>
-          <button class="star-button" onclick="window.open('https://github.com/MinitorMHS/CF_Web_Proxy/stargazers')">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Plain_Yellow_Star.png" alt="Star Icon" class="icon"> Give a Star
-          </button>
-        </div>
         <form action="/proxy" method="get">
           <input type="text" name="url" placeholder="Enter URL" required aria-label="Enter URL">
           <button type="submit">Go</button>
         </form>
-        <div class="contact-buttons">
-          <a href="mailto:me@minitor.eu.org" class="contact-button"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/200px-Gmail_icon_%282020%29.svg.png" alt="Gmail Icon"> Email Me for <b>&nbsp;DMCA</b></a>
-          <a href="https://t.me/Minitor" class="telegram-button"><img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Telegram Icon"> Contact me on Telegram</a>
-        </div>
         <footer>
           <p> 2024 CF Web Proxy. All rights reserved.</p>
         </footer>
